@@ -1,0 +1,1 @@
+import React from 'react';\nimport './HomePage.css';\n\nconst HomePage = () => (\n  <div className=\"home-page\">\n    <h1>Welcome to Our Creative App</h1>\n    <p>This is the home page. Here, you can find various features and functionalities of the app.</p>\n  </div>\n);\n\nexport default HomePage;\n
