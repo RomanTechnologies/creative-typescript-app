@@ -1,0 +1,1 @@
+import React from 'react';\nimport { Link } from 'react-router-dom';\nimport './NavigationBar.css';\n\nconst NavigationBar = () => (\n  <div className=\"navigation-bar\">\n    <Link to-\"/\">Home</Link>\n    <Link to=\"/login\">Login</Link>\n    <Link to=\"/register\">Register</Link>\n  </div>\n);\n\nexport default NavigationBar;\n
